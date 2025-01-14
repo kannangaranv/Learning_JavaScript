@@ -83,6 +83,52 @@ let big2 = 1234567890123456789012345678901234567890n;
 let sum = big1 + big2;
 console.log(sum);
 
+// String
+
+let str = "Hello World";
+console.log(str);
+
+// add two string
+let str1 = "Hello";
+let str2 = "World";
+let str3 = str1 + " " + str2;
+
+console.log(str3);
+
+// use double quotes inside doouble quotes
+let str4 = "Hello \"World\"";
+console.log(str4);
+
+// add new line
+let str5 = "Hello \nWorld";
+console.log(str5);
+
+// add a tab
+let str6 = "Hello \tWorld";
+console.log(str6);
+
+// \b
+let str7 = "Hello \bWorld";
+console.log(str7);
+
+
+// boolean
+
+let bool = 5>3;
+console.log(bool);
+console.log(typeof bool);
+
+// null
+let n = null;
+console.log(n);
+console.log(typeof n);
+
+// undefined
+let u = undefined;
+console.log(u);
+console.log(typeof u);
+
+
 
 
 
