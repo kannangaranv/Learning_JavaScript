@@ -128,6 +128,38 @@ let u = undefined;
 console.log(u);
 console.log(typeof u);
 
+// type conversion
+let x = String(5);
+console.log( x, typeof x);
+
+// string to number
+let y = Number("5");
+console.log(y, typeof y);
+
+// type coercion
+let z 
+console.log(z, typeof z);
+z = 8;
+console.log(z, typeof z);
+z = z + "8";
+console.log(z, typeof z);
+z =z -2;
+console.log(z, typeof z);
+
+z = !z;
+console.log(z, typeof z);
+
+// convert num int bool
+let num2 = "";
+let bool1 = Boolean(num2);
+console.log(bool1);
+
+// parseInt
+let num3 = "5.6";
+let num4 = parseInt(num3);
+console.log(num4);
+
+
 
 
 
