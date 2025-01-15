@@ -70,3 +70,14 @@ let  x1 = "";
 let  y1 = false;
 let data = x1 === y1;
 console.log(data);
+
+// logical operators
+let x2 = 7, y2 = 8, z2 = 9;
+
+let result = x2 < y2 && y2 < z2;
+
+// AND &&
+// OR ||
+// NOT !
+let n1 = !result;
+console.log(n1);
