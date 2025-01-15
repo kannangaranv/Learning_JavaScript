@@ -61,3 +61,12 @@ let v = t ** u;
 // using Math
 let w = Math.pow(5, 3);
 console.log(w);
+
+// relational operators
+console.log(5>6);
+console.log(5<6);
+
+let  x1 = "";
+let  y1 = false;
+let data = x1 === y1;
+console.log(data);
