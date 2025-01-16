@@ -1,5 +1,8 @@
-function greet() {
-  console.log("Hello, World!");
+function greet(user) {
+  return `Hello, ${user}!`;
 }
 
-greet(); // Hello, World!
+
+let user = "Nuwan";
+let str = greet(user);
+console.log(str); // Hello, World!
