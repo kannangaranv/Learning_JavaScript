@@ -2,9 +2,9 @@ let laptop = {
     cpu: "i7",
     ram: "16GB",
     brand: "Dell",
-    greet: function () {
-        return `Hello, ${this.cpu}!`;
+    getconfig: function () {
+        return `CPU: ${this.cpu}, RAM: ${this.ram}, Brand: ${this.brand}`;
     },
 }
 
-console.log(laptop.greet()); // object
+console.log(laptop.getconfig()); // object
