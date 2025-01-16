@@ -19,3 +19,13 @@ console.log(`Alien's Laptop RAM ${alien.laptop?.Ram?.length}`); // object
 
 delete alien.technology;
 console.log(alien); // object
+
+for (let key in alien){
+    console.log(key); // object
+    console.log(alien[key]); // object
+}
+
+for (let key in alien.laptop){
+    console.log(key); // object
+    console.log(alien.laptop[key]); // object
+}
