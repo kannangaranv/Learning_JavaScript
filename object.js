@@ -1,9 +1,21 @@
 let alien = {
     name: "Nuwan",
     technology: "JavaScript",
-    'home planet': "Mars"
+    laptop : {
+        cpu : "i7",
+        ram : "16GB",
+        brand: "Dell"
+    }
+    
 }
+
+console.log(alien); // object
 
 console.log(`Name of Alien ${alien.name}`); // object
 console.log(`Technology of Alien ${alien.technology}`); // object
-console.log(`Home Planet of Alien ${alien['home planet']}`); // object
+console.log(`Alien's Laptop ${alien.laptop}`); // object
+console.log(`Alien's Laptop CPU ${alien.laptop.cpu}`); // object
+console.log(`Alien's Laptop RAM ${alien.laptop?.Ram?.length}`); // object
+
+delete alien.technology;
+console.log(alien); // object
